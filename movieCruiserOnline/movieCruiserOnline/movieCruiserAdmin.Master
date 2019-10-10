@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="movieCruiserAdmin.master.cs" Inherits="movieCruiserOnline.movieCruiserAdmin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <i class="fa fa-film"></i>
+            <h2>movieCruiser</h2>
+        </div>
+        <nav class="nav_links">
+            <a href="MovieListAdmin.html">Movies</a>
+        </nav>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <h4>Copyright &copy; | movieCruiser 2019</h4>
+    </footer>
+</body>
+</html>

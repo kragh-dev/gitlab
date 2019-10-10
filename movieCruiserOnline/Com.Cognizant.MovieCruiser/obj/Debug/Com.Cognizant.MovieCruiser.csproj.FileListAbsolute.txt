@@ -1,0 +1,5 @@
+D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.dll
+D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.pdb
+D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.csprojResolveAssemblyReference.cache
+D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.dll
+D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.pdb

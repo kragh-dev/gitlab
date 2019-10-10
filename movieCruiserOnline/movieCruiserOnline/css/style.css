@@ -1,0 +1,270 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-image: url("../images/bodyBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body1 {
+    background-image: url("../images/bodyBackground1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    align-items: center;
+    display: flex;
+}
+
+.header .logo i {
+    font-size: 23px;
+    margin-right: 15px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links a {
+    display: inline-block;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.nav_links a:hover {
+    color: #0088a9
+}
+
+.menu {
+    margin-top: 55px;
+    padding: 35px 10%;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.menu .addItem {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .addItem .favCountBox {
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.menu .addItem .favCountBox h2 {
+    margin-left: 15px;
+}
+
+.menu .menuList {
+    margin-top: 30px;
+}
+
+.menu .menuList .menuListTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.menu .menuList .menuListTable tr {
+    height: 60px;
+    color: white;
+    background-color: rgba(0,0,0, 0.8);
+    align-items: center;
+}
+
+.menu .menuList .menuListTable tr td {
+    padding: 10px;
+}
+
+.menu .menuList .menuListTable tr th {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.menu .favAddStatus .status {
+    color: seagreen;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+.menu .favEmptySection {
+    padding: 10px;
+    font-size: 17px;
+}
+
+.edit {
+    margin-top: 55px;
+    padding: 35px 10%;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.edit .editMovieForm {
+    margin-top: 30px;
+}
+
+.edit .editMovieForm .editMovieName {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.edit .editMovieForm .editMovieName .editName {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 7px;
+    width: 50%;
+    padding: 10px;
+    background-color: lightgray;
+    border: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.edit .editMovieForm .editMovieName tr {
+    height: 50px;
+}
+
+.edit .editMovieForm .editMovieName tr td input {
+    width: 97%;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.edit .editMovieForm .editMovieDetails {
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.edit .editMovieForm .editMovieDetails .editGrossBox {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 10%;
+    min-width: 10%;
+}
+
+.edit .editMovieForm .editMovieDetails .editGrossBox .editGross {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 0;
+    width: 100%;
+    min-width: 100%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.edit .editMovieForm .editMovieDetails tr {
+    height: 30px;
+}
+
+.edit .editMovieForm .editMovieDetails tr td input {
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.edit .editMovieForm .editMovieDetails tr td div {
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.edit .editMovieForm .editMovieDetails tr td div p {
+    margin: 0px 10px;
+}
+
+.edit .editMovieForm .editMovieDetails tr td select {
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    ;
+    color: black;
+}
+
+.edit .editMovieForm .editMovieDelAndSave {
+    width: 55%;
+    text-align: left;
+    color: white;
+}
+
+.edit .editMovieForm .editMovieDelAndSave tr {
+    height: 55px;
+}
+
+.edit .editStatus {
+    margin-top: 30px;
+}
+
+.edit .editStatus .status {
+    color: seagreen;
+    font-size: 20px;
+}
+
+.submitEditItem {
+    border-radius: 5px;
+    border: 0;
+    width: 20%;
+    height: 35px;
+}
+
+.boxOffice::before {
+    content: '$ ';
+}
+
+footer {
+    padding: 20px 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+footer h4 {
+    text-decoration: none;
+    font-weight: 400;
+}
