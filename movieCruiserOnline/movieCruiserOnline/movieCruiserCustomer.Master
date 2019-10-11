@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="movieCruiserAdmin.master.cs" Inherits="movieCruiserOnline.movieCruiserAdmin" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="movieCruiserCustomer.master.cs" Inherits="movieCruiserOnline.movieCruiserCustomer" %>
 
 <!DOCTYPE html>
 
@@ -10,14 +10,15 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body class="body">
+<body class="body1">
     <header class="header">
         <div class="logo">
             <i class="fa fa-film"></i>
             <h2>movieCruiser</h2>
         </div>
         <nav class="nav_links">
-            <asp:HyperLink ID="HyperLink1" CssClass="a" runat="server" NavigateUrl="~/ShowMovieListAdmin.aspx">Movies</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" CssClass="a" runat="server" NavigateUrl="~/ShowMovieListCustomer.aspx">Movies</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" CssClass="a" runat="server" NavigateUrl="~/ShowFavorites.aspx">Favorites</asp:HyperLink>
         </nav>
     </header>
     <form id="form1" runat="server">
