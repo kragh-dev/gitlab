@@ -9,6 +9,7 @@
         </div>
         <div class="favAddStatus">
             <p class="status" id="favStatus"></p>
+            <p class="status1" id="favStatus1"></p>
         </div>
         <div class="menuList">
             <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>

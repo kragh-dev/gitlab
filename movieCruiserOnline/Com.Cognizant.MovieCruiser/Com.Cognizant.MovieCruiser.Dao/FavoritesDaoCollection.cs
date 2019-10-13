@@ -9,6 +9,14 @@ namespace Com.Cognizant.Moviecruiser.Dao
     public class FavoritesDaoCollection : IFavoritesDao
     {
         private static Dictionary<long, Favorites> userFavorites;
+        public static Dictionary<long, Favorites> UserFavorites {
+            get {
+                return userFavorites;
+            }
+            set {
+                userFavorites = value;
+            }
+        }
         public FavoritesDaoCollection()
         {
             if (userFavorites == null)

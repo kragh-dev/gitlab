@@ -3,3 +3,9 @@ D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser
 D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.csprojResolveAssemblyReference.cache
 D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.dll
 D:\kaarthik\Visual Studio Projects\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.pdb
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.dll
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\bin\Debug\Com.Cognizant.MovieCruiser.pdb
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.csprojAssemblyReference.cache
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.csproj.CoreCompileInputs.cache
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.dll
+C:\Users\kaart\Works\VisualStudio Projects\ofc\gitlab\movieCruiserOnline\Com.Cognizant.MovieCruiser\obj\Debug\Com.Cognizant.MovieCruiser.pdb

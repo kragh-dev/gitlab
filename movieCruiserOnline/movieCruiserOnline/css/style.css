@@ -320,6 +320,11 @@
     font-size: 20px;
 }
 
+.edit .editStatus .status1 {
+    color: firebrick;
+    font-size: 20px;
+}
+
 .submitEditItem {
     border-radius: 5px;
     border: 0;
